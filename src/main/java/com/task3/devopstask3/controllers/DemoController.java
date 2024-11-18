@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class DemoController {
+public final class DemoController {
     @GetMapping("/devops")
     public String getDevopsName() {
         return Optional.ofNullable(System.getenv("DEVOPS"))
