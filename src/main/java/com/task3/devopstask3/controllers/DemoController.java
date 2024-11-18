@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-public class DemoController {
+public final class DemoController {
     @GetMapping("/devops")
     public String getDevopsName() {
         return Optional.ofNullable(System.getenv("DEVOPS"))
