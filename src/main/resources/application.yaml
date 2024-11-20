@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: devops-task3
+
+  abc
