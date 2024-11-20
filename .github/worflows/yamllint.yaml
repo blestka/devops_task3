@@ -1,6 +1,6 @@
 name: 'Yamllint GitHub Actions'
 on:
-  - pull_request
+  - workflow_dispatch
 jobs:
   yamllint:
     name: 'Yamllint'
